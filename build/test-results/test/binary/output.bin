@@ -1,0 +1,27 @@
+[{
+  "className": "test1",
+  "attributes": [
+    {
+      "name": "name",
+      "type": "String"
+    },
+    {
+      "name": "type",
+      "type": "String"
+    }
+  ],
+  "operations": []
+}, {
+  "className": "test2",
+  "attributes": [
+    {
+      "name": "name",
+      "type": "String"
+    },
+    {
+      "name": "type",
+      "type": "String"
+    }
+  ],
+  "operations": []
+}]
