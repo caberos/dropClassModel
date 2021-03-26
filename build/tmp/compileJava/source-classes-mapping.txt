@@ -8,3 +8,9 @@ controller/ClassModel.java
  controller.ClassModel
 controller/UmlDiagram.java
  controller.UmlDiagram
+view/DropClass.java
+ view.DropClass
+ view.DropClass$1
+ view.DropClass$TestPane
+ view.DropClass$TestPane$1
+ view.DropClass$TestPane$ChangeHandler
