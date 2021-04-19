@@ -33,4 +33,8 @@ public class UmlDiagram {
         }
         return res;
     }
+
+    public void createClass(String name){
+        classes.add(ClassFactory.create(name));
+    }
 }

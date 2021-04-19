@@ -58,4 +58,12 @@ public class ClassModel {
     public void addAttribute(Attribute attribute) {
         attributes.add(attribute);
     }
+
+    public void addRelation(String name, ClassModel relationShip){
+        relationship= RelationshipFactory.create(relationShip,name);
+    }
+
+    public void addOperation(String name, String output, List<Attribute> input){
+        operations.add(OperationFactory.create(name,output,input));
+    }
 }
